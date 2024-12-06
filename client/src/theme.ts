@@ -13,8 +13,11 @@ const lightTheme = {
       secondary: '#333333',
     },
     warning: {
-      main: '#03fc0f', // Gelb für aktive Buttons
+      main: '#47c98c', // Gelb für aktive Buttons
     },
+    primary: {
+      main: '#a1e36f',
+    }
   },
 };
 
@@ -31,8 +34,11 @@ const darkTheme = {
       secondary: '#aaaaaa',
     },
     warning: {
-      main: '#FFEB3B', // Gelb für aktive Buttons
+      main: '#3f6323', // Gelb für aktive Buttons
     },
+    primary: {
+      main: '#a1e36f',
+    }
   },
 };
 
