@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-d
 import { CssBaseline, ThemeProvider } from '@mui/material';
 import theme from './theme'; // Das erstellte Theme importieren
 import Header from './components/Header';
-import SkillTree from './components/SkillTree';
+import Image_Analyse from './components/Image_Analyse';
 import FooterWithButtons from './components/FooterWithButtons';
 import FooterWithInfo from './components/FooterWithInfo';
 import ExercisesTab from './components/Exercise/ExerciseTab';
@@ -40,7 +40,7 @@ const App: React.FC = () => {
           <main style={{ padding: '16px', minHeight: 'calc(100vh - 112px)' }}>
             {/* Routen definieren */}
             <Routes>
-              <Route path="/skill-tree" element={<SkillTree />} />
+              <Route path="/image-analysis" element={<Image_Analyse />} />
               <Route path="/exercises" element={<ExercisesTab />} />
               {/* Fallback-Route für alle anderen URLs */}
               <Route path="*" element={<Navigate to="/skill-tree" />} />

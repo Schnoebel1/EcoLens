@@ -13,7 +13,7 @@ const lightTheme = {
       secondary: '#333333',
     },
     warning: {
-      main: '#FBC02D', // Gelb für aktive Buttons
+      main: '#03fc0f', // Gelb für aktive Buttons
     },
   },
 };
