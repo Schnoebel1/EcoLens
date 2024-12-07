@@ -9,6 +9,7 @@ lerna-debug.log*
 
 # Node.js
 node_modules/
+venv
 
 # dotenv
 .env
